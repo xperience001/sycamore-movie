@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <SideMenu />
+  <MainPage />
+  <RightSide />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SideMenu from './components/SideMenu.vue'
+import MainPage from './components/MainPage.vue'
+import RightSide from './components/RightSide.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SideMenu,
+    MainPage,
+    RightSide
   }
 }
 </script>
